@@ -1,0 +1,2 @@
+#!/bin/bash
+/bin/mount | /bin/grep -q 'on /mnt/machine ' || /bin/mount -o umask=0 /dev/sda /mnt/machine
